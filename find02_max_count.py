@@ -9,8 +9,12 @@ def find_max_count(data):
     i=0
     while i<len(data):
         if mx<data[i]:
-            s=data[i]
+            mx=data[i]
+        
+        
+            
+
         i+=1
     return data.count(mx)
-print(find_max_count([12, 2, 5, 2, 7, 9, 1]))
+print(find_max_count([12, 2, 5, 2, 7, 12, 1]))
     
